@@ -8,7 +8,6 @@ import Nav from './Components/nav/Nav';
 import Portfolio from './Components/portfolio/Portfolio';
 import MyServices from './Components/myServices/MyServices';
 import Skills from './Components/skills/Skills';
-import Stars from './Stars';
 
 
 
@@ -25,7 +24,6 @@ function App() {
     <Portfolio />
     <Contact />
     <Footer />
-    {/* <Stars/> */}
     
     </>
   );

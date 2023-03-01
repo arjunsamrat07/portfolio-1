@@ -6,7 +6,6 @@ import { FaAward } from "react-icons/fa"
 import { GiGraduateCap } from "react-icons/gi"
 import { VscFolderActive } from "react-icons/vsc"
 import 'animate.css';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 const About = () => {
@@ -20,7 +19,7 @@ const About = () => {
       <div className="container about__container">
 
 
-        {/* <AnimationOnScroll animateIn="animate__fadeInLeft"> */}
+
         <span data-aos="zoom-in" data-aos-duration="1500">
           <div className="about__me">
             <div className="about__me-image">
@@ -28,13 +27,11 @@ const About = () => {
             </div>
           </div>
         </span>
-        {/* </AnimationOnScroll> */}
 
         <div className="about__content">
           <div className="about__cards">
             <div className="blur blur-a"></div>
 
-            {/* <AnimationOnScroll animateIn="animate__fadeInRight"> */}
             <span data-aos="zoom-in" data-aos-duration="1500">
               <article className="about__card">
                 <FaAward className='about-icon' />
@@ -42,9 +39,7 @@ const About = () => {
                 <small> 1+ Year of Working </small>
               </article>
             </span>
-            {/* </AnimationOnScroll> */}
 
-            {/* <AnimationOnScroll animateIn="animate__fadeInRight" delay={400}> */}
             <span data-aos="zoom-in" data-aos-duration="1500">
               <a href="#education" style={{ color: "white" }}>
                 <article className="about__card">
@@ -54,9 +49,7 @@ const About = () => {
                 </article>
               </a>
             </span>
-            {/* </AnimationOnScroll> */}
 
-            {/* <AnimationOnScroll animateIn="animate__fadeInRight" delay={600}> */}
             <span data-aos="zoom-in" data-aos-duration="1500">
 
               <a href="#Portfolio" style={{ color: "white" }}>
@@ -67,14 +60,11 @@ const About = () => {
                 </article>
               </a>
             </span>
-            {/* </AnimationOnScroll> */}
 
           </div>
 
-          {/* <AnimationOnScroll animateIn="animate__fadeIn" delay={200}> */}
           <p data-aos="zoom-in" data-aos-duration="1500" style={{ textAlign: "justify" }}>I am a Full Stack Web Developer with robust problem-solving skills and proven experience in designing, developing and deploying software, websites & web-applications in a test-driven environment.
           </p>
-          {/* </AnimationOnScroll> */}
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
