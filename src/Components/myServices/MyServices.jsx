@@ -1,6 +1,5 @@
 import React from 'react'
 import "./MyServices.css"
-import { AnimationOnScroll } from 'react-animation-on-scroll'
 import Design from "../../assets/web-design.svg"
 import Responsive from "../../assets/responsive_.svg"
 import WebDevelopment from "../../assets/web-development.svg"
@@ -10,9 +9,9 @@ import Analytics from "../../assets/analytics.svg"
 function MyServices() {
 
     return (
-        
+
         <section id='services'>
-            
+
             <h5>What I Offer</h5>
             <h2>Services</h2>
             <div className="container services__container">
