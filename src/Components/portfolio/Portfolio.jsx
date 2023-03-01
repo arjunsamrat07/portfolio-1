@@ -81,8 +81,8 @@ function Portfolio() {
               </div>
               <h3>{ele.title}</h3>
               <div className="portfolio__item-cta">
-                <a href={ele.github} className='btn' target='_blank' rel="noreferrer">Github</a>
-                <a href={ele.demo} className='btn btn-primary' target='_blank' rel="noreferrer"> Live Demo </a>
+                <a href={ele.github} className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+                <a href={ele.demo} className='btn btn-primary' target='_blank' rel="noopener noreferrer"> Live Demo </a>
               </div>
 
             </article>

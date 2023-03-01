@@ -20,10 +20,10 @@ function Footer() {
       </ul>
       
       <div className='footer__socials'>
-        <a href="https://github.com/arjun0705" target="_blank" rel="noreferrer"><BsGithub /></a>
-        <a href="https://www.linkedin.com/in/arjun-samrat-23b7b11aa/" target="_blank" rel="noreferrer"><SiLinkedin /></a>
-        <a href="https://medium.com/@arjunsamrat0705" target="_blank" rel="noreferrer"><SiMedium /></a>
-        <a href="https://www.instagram.com/_arjun0705_/" target="_blank" rel="noreferrer"><BsInstagram /></a>
+        <a href="https://github.com/arjun0705" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+        <a href="https://www.linkedin.com/in/arjun-samrat-23b7b11aa/" target="_blank" rel="noopener noreferrer"><SiLinkedin /></a>
+        <a href="https://medium.com/@arjunsamrat0705" target="_blank" rel="noopener noreferrer"><SiMedium /></a>
+        <a href="https://www.instagram.com/_arjun0705_/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
       </div>
 
       <div className="footer__copyright">

@@ -20,7 +20,7 @@ function MyServices() {
 
                 <div data-aos="zoom-in" data-aos-duration="1500" className='services-containers'>
                     <div className='hex'>
-                        <img src={Design} width="50px" />
+                        <img src={Design} width="50px" alt='Services' />
                     </div>
                     <h3 className='text'>Design</h3>
                     <p>Clean-modern designes, optimised for user experience, performence & search engines.</p>
@@ -33,7 +33,7 @@ function MyServices() {
 
                 <div data-aos="zoom-in" data-aos-duration="1500" className='services-containers'>
                     <div className='hex'>
-                        <img src={WebDevelopment} />
+                        <img src={WebDevelopment} alt='Services' />
 
                     </div>
                     <h3 className='text'>Developement</h3>
@@ -49,7 +49,7 @@ function MyServices() {
 
                 <div data-aos="zoom-in" data-aos-duration="1500" className='services-containers'>
                     <div className='hex'>
-                        <img style={{ width: "78px" }} src={Responsive} />
+                        <img style={{ width: "78px" }} src={Responsive} alt='Services' />
                     </div>
                     <h3 className='text'>Mobile-Friendly</h3>
                     <p>A responsive designs makes your website accessible to all users, regardless of their devices.</p>
@@ -59,7 +59,7 @@ function MyServices() {
 
                 <div data-aos="zoom-in" data-aos-duration="1500" className='services-containers'>
                     <div className='hex'>
-                        <img src={Analytics} width="50px" />
+                        <img src={Analytics} width="50px" alt='Services' />
                     </div>
                     <h3 className='text'>Web-Analytics</h3>
                     <p>Get insights into who is browsing your site so that you can make smarter business decisions.</p>
