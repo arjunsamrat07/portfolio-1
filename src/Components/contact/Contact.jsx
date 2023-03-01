@@ -4,7 +4,6 @@ import { MdOutlineEmail } from "react-icons/md"
 import { BsWhatsapp } from "react-icons/bs"
 import { useRef } from 'react';
 import emailjs from "emailjs-com"
-import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 function Contact() {
   const form = useRef();

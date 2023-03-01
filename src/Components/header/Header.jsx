@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Header.css"
 import CTA from "./CTA"
-import Coder from "../../assets/coder.png"
 import HeaderSocials from './HeaderSocials'
 import TypeWriterEffect from 'react-typewriter-effect';
 

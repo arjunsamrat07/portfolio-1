@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Experience.css"
 import { BsPatchCheckFill } from "react-icons/bs"
-import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 function Experience() {
   return (
@@ -11,7 +10,6 @@ function Experience() {
 
       <div className='container experience__container'>
 
-        {/* <AnimationOnScroll animateIn="animate__fadeInLeft"> */}
         <div data-aos="zoom-in" data-aos-duration="1500" className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="blur blur-e"></div>
@@ -55,11 +53,9 @@ function Experience() {
           </div>
         </div>
 
-        {/* </AnimationOnScroll> */}
 
         {/* Backend development */}
 
-        {/* <AnimationOnScroll animateIn="animate__fadeInRight"> */}
 
 
         <div data-aos="zoom-in" data-aos-duration="1500" className="experience__backend">
@@ -107,7 +103,6 @@ function Experience() {
 
         </div>
 
-        {/* </AnimationOnScroll> */}
 
       </div>
 

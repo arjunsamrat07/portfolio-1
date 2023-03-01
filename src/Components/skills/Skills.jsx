@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Skills.css"
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import ChakraUi from "../../assets/Logos/chakraui.png"
 import Css from "../../assets/Logos/css.3.svg"
