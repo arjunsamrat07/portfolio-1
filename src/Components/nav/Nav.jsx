@@ -9,7 +9,6 @@ import { MdWorkOutline } from "react-icons/md"
 import { Tooltip } from '@mui/material'
 import { styled } from '@mui/material/styles';
 import { tooltipClasses } from '@mui/material/Tooltip';
-import Header from '../header/Header'
 
 
 
@@ -32,7 +31,7 @@ function Nav() {
   return (
     <nav>
       <BootstrapTooltip title="home" placement='top-start' arrow backgroundColor="white">
-        <a onClick={() => { setActiveNav("#home") }} className={activeNav === "#home" ? "active" : ""} ><AiOutlineHome /></a>
+        <a href='#home' onClick={() => { setActiveNav("#home") }} className={activeNav === "#home" ? "active" : ""} ><AiOutlineHome /></a>
       </BootstrapTooltip>
 
       <BootstrapTooltip title="about" placement='top-start' arrow>
