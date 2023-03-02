@@ -8,23 +8,31 @@ import Nav from './Components/nav/Nav';
 import Portfolio from './Components/portfolio/Portfolio';
 import MyServices from './Components/myServices/MyServices';
 import Skills from './Components/skills/Skills';
-
+import ReactGA from "react-ga4"
 
 
 
 function App() {
+
+  const TRACKING_ID = "G-TEZKY7FEER"
+  ReactGA.initialize(TRACKING_ID)
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <>
-    <Header />
-    <Nav /> 
-    <About />
-    <Experience />
-    <Skills/>
-    <MyServices/>
-    <Portfolio />
-    <Contact />
-    <Footer />
-    
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Skills />
+      <MyServices />
+      <Portfolio />
+      <Contact />
+      <Footer />
+
     </>
   );
 }
