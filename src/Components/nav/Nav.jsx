@@ -8,7 +8,7 @@ import { BiMessageSquareDetail } from "react-icons/bi"
 import { MdWorkOutline } from "react-icons/md"
 import { Tooltip } from '@mui/material'
 import { styled } from '@mui/material/styles';
-import  { tooltipClasses } from '@mui/material/Tooltip';
+import { tooltipClasses } from '@mui/material/Tooltip';
 
 
 
@@ -29,14 +29,14 @@ function Nav() {
 
   return (
     <nav>
-      <BootstrapTooltip title="home" placement='top-start' arrow>
-        <a href="#" onClick={() => { setActiveNav("#") }} className={activeNav === "#" ? "active" : ""} ><AiOutlineHome /></a>
+      <BootstrapTooltip title="home" placement='top-start' arrow backgroundColor="white">
+        <a href="#home" onClick={() => { setActiveNav("#home") }} className={activeNav === "#home" ? "active" : ""} ><AiOutlineHome /></a>
       </BootstrapTooltip>
 
       <BootstrapTooltip title="about" placement='top-start' arrow>
         <a href="#about" onClick={() => { setActiveNav("#about") }} className={activeNav === "#about" ? "active" : ""} ><AiOutlineUser /></a>
       </BootstrapTooltip>
-      
+
       <BootstrapTooltip title="experience" placement='top-start' arrow >
         <a href="#experience" onClick={() => { setActiveNav("#experience") }} className={activeNav === "#experience" ? "active" : ""}><BiBookBookmark /></a>
       </BootstrapTooltip>

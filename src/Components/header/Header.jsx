@@ -6,9 +6,9 @@ import TypeWriterEffect from 'react-typewriter-effect';
 
 function Header() {
   return (
-    <header className='headerbackground'>
+    <header className='headerbackground' id='home'>
       <div className=" header__container">
-        <h5 style={{letterSpacing:"1px"}}>Hello I'm</h5>
+        <h5 style={{ letterSpacing: "1px" }}>Hello I'm</h5>
         <div className="blur blur-h"></div>
         <h1 className='name'> Arjun Samrat </h1>
         <h4 className='profile'>Full Stack Web Developer</h4>
@@ -30,7 +30,7 @@ function Header() {
         <CTA />
         <HeaderSocials />
         <div className='me'>
-          <span  className='coder'>
+          <span className='coder'>
             <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_obidsi0t.json" background="transparent" speed="1" loop autoplay></lottie-player>
           </span>
         </div>
