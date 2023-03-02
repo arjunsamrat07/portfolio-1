@@ -9,6 +9,7 @@ import Portfolio from './Components/portfolio/Portfolio';
 import MyServices from './Components/myServices/MyServices';
 import Skills from './Components/skills/Skills';
 import ReactGA from "react-ga4"
+import { useEffect } from 'react';
 
 
 
